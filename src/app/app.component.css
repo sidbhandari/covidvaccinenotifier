@@ -1,0 +1,134 @@
+section {
+  position: relative;
+  margin: 0px 0 30px 0;
+  padding: 0;
+  display: block;
+  overflow: hidden;
+  z-index: 0;
+}
+.page-header {
+  -webkit-font-feature-settings: "lnum" 1;
+  font-feature-settings: "lnum" 1;
+  font-variant-numeric: lining-nums;
+  font-weight: 600;
+  line-height: 1.1;
+  /* margin-bottom: 0.65em; */
+  /* margin-top: 0.65em; */
+  word-break: break-word;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  background: #41295a;
+  background: linear-gradient(to right, #2f0743, #41295a);
+  color: #fff;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#audio,
+#playbtn {
+  display: none;
+}
+.data-row {
+  border: 1px solid #767676;
+  padding: 1rem;
+  margin: 1rem 0px;
+  border-radius: 8px;
+}
+
+.center-details {
+  text-align: right;
+}
+.hospital-details {
+  display: flex;
+  margin: 0px;
+  justify-content: flex-end;
+}
+
+p {
+  margin: 5px 0px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.vaccine-name {
+  font-weight: 600;
+  color: #5f7aab;
+}
+.fee-type {
+  color: #009688;
+}
+.capacity {
+  font-weight: 600;
+  color: #5757a1;
+}
+.dose1 {
+  color: #049d04;
+  font-weight: 600;
+}
+.dose2 {
+  color: #7a006a;
+  font-weight: 600;
+}
+.vaccine-detail {
+  background: #607d8b;
+  color: #fff;
+  border-radius: 15px;
+  padding: 0.5rem;
+  display: inline-block;
+}
+
+.slots {
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  /* margin: 0px 3px; */
+  padding: 0.5rem;
+}
+.dose-details {
+}
+.age-limit {
+  font-weight: 600;
+  font-weight: 600;
+  color: #ff1f1f;
+}
+.dose-date {
+  padding: 5px;
+  background: gray;
+  color: #fff;
+}
+.no-data {
+  /* color: red;
+  font-weight: 500;
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 3rem; */
+  color: red;
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+  margin: 3rem auto;
+  max-width: 80%;
+}
+
+button {
+  margin: 10px 0;
+}
+input:invalid {
+  color: red;
+}
+.error {
+  font-size: 12px;
+  color: red;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .no-data {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+}

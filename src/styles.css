@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+:root {
+  --primary: #0f0542;
+  --secondary: #ff4f00;
+  /*  */
+
+  --tertiary: #81ca00;
+  /* --title-header: #353535; */
+  --title-header: #212240;
+  --text-color: #898989;
+}
+
+* {
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Poppins", sans-serif;
+  /* outline: 1px solid red; */
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-y: auto;
+  height: 100%;
+  font-size: 0.9rem;
+  /* background-color: #330055; */
+  /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23330055' cx='50' cy='0' r='50'/%3E%3Cg fill='%233d025b' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23460560' cx='50' cy='100' r='50'/%3E%3Cg fill='%23500966' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23590e6b' cx='50' cy='200' r='50'/%3E%3Cg fill='%23631271' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%236d1776' cx='50' cy='300' r='50'/%3E%3Cg fill='%23771b7c' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23811f81' cx='50' cy='400' r='50'/%3E%3Cg fill='%238b2486' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%2395288b' cx='50' cy='500' r='50'/%3E%3Cg fill='%23a02d90' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23aa3295' cx='50' cy='600' r='50'/%3E%3Cg fill='%23b4379a' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23bf3b9f' cx='50' cy='700' r='50'/%3E%3Cg fill='%23c940a3' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23d445a8' cx='50' cy='800' r='50'/%3E%3Cg fill='%23df4aac' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23e94fb1' cx='50' cy='900' r='50'/%3E%3Cg fill='%23f455b5' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23FF5AB9' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E"); */
+  background-attachment: fixed;
+  background-size: contain;
+}
