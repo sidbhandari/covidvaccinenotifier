@@ -1,6 +1,6 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
-import { shareTextToWhatsApp } from 'share-text-to-whatsapp';
-import { shareTextViaNativeSharing } from 'share-text-to-whatsapp';
+// import { shareTextToWhatsApp } from 'share-text-to-whatsapp';
+// import { shareTextViaNativeSharing } from 'share-text-to-whatsapp';
 
 import {
   HttpClient,
@@ -18,7 +18,7 @@ import { DatePipe } from '@angular/common';
   providers: [DatePipe],
 })
 export class AppComponent {
-  title = 'Cowid Vaccine Notifier';
+  title = 'Covid Vaccine Notifier';
   centerData: any;
   pincodes: string = '';
   sessions: any;
