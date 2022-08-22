@@ -23,6 +23,32 @@ section {
   color: #fff;
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+main {
+  margin-bottom: 150px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.footer-social {
+  gap: 10px;
+  align-items: center;
+}
+.social-links {
+  gap: 10px;
+}
+.social-links a {
+  display: inline-block;
+  font-size: 1.8rem;
+  margin: 0 5px;
+  transition: all 100ms linear;
+  /* transition: 100ms ease-in; */
+}
+.social-links a:hover {
+  color: #fff;
+  transform: scale(1.05);
+}
 #audio,
 #playbtn {
   display: none;
@@ -130,5 +156,10 @@ input:invalid {
   .no-data {
     font-size: 1rem;
     max-width: 100%;
+  }
+  .footer {
+    flex-wrap: wrap;
+    justify-content: center !important;
+    gap: 10px;
   }
 }
